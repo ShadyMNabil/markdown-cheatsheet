@@ -33,6 +33,7 @@ Let's dive into it. ⤵️
 5. [Images](#images)
 6. [Links](#links)
 7. [Code](#code)
+    - [Escaping Characters](#escapingCharacters)
 8. [Lists](#lists)
     - [Ordered List](#orderedlist)
     - [Unordered List](#unorderedlist)
@@ -205,6 +206,16 @@ Backticks inside backticks? `` `No problem.` ``
 ```js
 const x = "Block code snippet in JS";
 console.log(x);
+```
+
+<a name="escapingCharacters" />
+
+### Escaping characters
+You can also use Escaping characters `(\)` like:
+
+```
+Before *escaping*
+After \*escaping\*
 ```
 
 ---
